@@ -1,0 +1,71 @@
+.reviews {
+  &__container {
+  }
+  &__headerBlock {
+  }
+  &__body {
+  }
+  &__items {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  &__item {
+    flex: 1 1 280px;
+    border: 1px solid #dedede;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    box-shadow:
+            0 2.767256498336792px 2.2138051986694336px 0 rgba(0, 0, 0, 0.02),
+            0 6.650102138519287px 5.32008171081543px 0 rgba(0, 0, 0, 0.03),
+            0 12.521552085876465px 10.017241477966309px 0 rgba(0, 0, 0, 0.04),
+            0 22.3363094329834px 17.869047164916992px 0 rgba(0, 0, 0, 0.04),
+            0 41.777610778808594px 33.422088623046875px 0 rgba(0, 0, 0, 0.05),
+            0 100px 80px 0 rgba(0, 0, 0, 0.07);
+  }
+  &__item > * {
+    margin-bottom: 15px;
+  }
+
+  &__linkAvatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  &__avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__text {
+    flex-grow: 1;
+    margin-bottom: 25px;
+  }
+  &__text p {
+    line-height: 187.5%; /* 30/16 */
+  }
+  &__text p:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  &__title {
+  }
+  &__linkTitle {
+    color: #23a6f0;
+    line-height: 187.5%; /* 30/16 */
+  }
+  &__linkTitle:hover {
+    text-decoration: underline;
+  }
+  &__position {
+    font-weight: 500;
+    color: #000;
+  }
+  &__item > *:last-child {
+    margin-bottom: 0px;
+  }
+}

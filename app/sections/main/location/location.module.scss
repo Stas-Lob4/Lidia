@@ -1,0 +1,11 @@
+.location {
+  &__container {
+  }
+  &__header-block {
+  }
+  &__map {
+    width: 100%;
+    box-shadow: 0 30px 60px 0 rgba(71, 74, 87, 0.25);
+    height: 405px;
+  }
+}

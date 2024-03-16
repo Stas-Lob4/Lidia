@@ -1,0 +1,52 @@
+.page {
+  &__hero {
+    margin-bottom: 170px;
+  }
+  &__features,
+  &__services,
+  &__reviews {
+    margin-bottom: 200px;
+  }
+  &__location {
+    margin-bottom: 240px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .page__hero {
+    margin-bottom: 100px;
+  }
+  .page__features,
+  .page__services,
+  .page__reviews,
+  .page__location {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 991.98px) {
+  .page__hero {
+    margin-bottom: 60px;
+  }
+  .page__features,
+  .page__services,
+  .page__reviews,
+  .page__location {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 767.98px) {
+  .page__hero {
+    margin-bottom: 50px;
+  }
+  .page__features,
+  .page__services,
+  .page__reviews,
+  .page__location {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 479.98px) {
+  .page__hero {
+    padding-top: 50px;
+  }
+}

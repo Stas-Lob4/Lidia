@@ -1,0 +1,16 @@
+.main {
+  width: 1440px;
+}
+
+.wrapper {
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: clip;
+}
+
+.wrapper > main {
+  flex-grow: 1;
+}
